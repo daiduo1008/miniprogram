@@ -1,0 +1,31 @@
+.integral{
+  margin-top: 40rpx;
+  margin-left: 520rpx;
+}
+
+.circle_progress{
+  margin-top: 60rpx;
+  margin-left: 76rpx;
+}
+
+.details{
+  margin-top: 200rpx;
+  width: 144px;
+  height: 60px;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(16, 16, 16, 1);
+  font-size: 28px;
+  border: 1px solid rgba(187, 187, 187, 1);
+}
+
+.back{
+  margin-top: 50rpx;
+  width: 144px;
+  height: 60px;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(16, 16, 16, 1);
+  font-size: 28px;
+  border: 1px solid rgba(187, 187, 187, 1);
+}

@@ -1,0 +1,26 @@
+.exit{
+  height: 60rpx;
+  width: 60rpx;
+}
+
+.container{
+  margin-top: -50rpx;
+  margin-left: 0rpx;
+}
+
+.set{
+  width: 96px;
+  height: 22px;
+  color: rgba(16, 16, 16, 1);
+  font-size: 96rpx;
+}
+
+.check{
+  margin-left: 120rpx;
+  margin-top: 30rpx;
+}
+
+.select{
+  margin-left: 180rpx;
+  margin-top: 180rpx;
+}

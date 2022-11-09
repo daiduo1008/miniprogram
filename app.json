@@ -1,0 +1,29 @@
+{
+  "pages":[
+    "pages/fight/fight",
+    "pages/fight_settlement/fight_settlement",
+    "pages/wrong/wrong",
+  
+   
+    
+    "pages/details/detials",
+    "pages/fight_details/fight_details",
+  
+    "pages/pop_up_window/pop_up_window",
+    "pages/exercise/exercise",
+    "pages/home/home",
+    "pages/settlement/settlement",
+    "pages/login/login",
+    "pages/set/set",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

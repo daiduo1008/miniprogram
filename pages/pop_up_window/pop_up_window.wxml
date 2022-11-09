@@ -1,0 +1,16 @@
+
+<view class="container">
+  <view class="userinfo">
+    <button bindtap="onshowPopup"> 点我 </button>
+  </view>
+  <popup
+    hide="{{!hidePopup}}" 
+      id='popup'
+      title='请选择模式'
+      btn_no='单人做题'
+      btn_ok='双人做题'
+      bind:error="_error" 
+      bind:success="_success"
+      >
+  </popup>
+</view>

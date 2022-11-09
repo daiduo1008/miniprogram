@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+      "circle_progress": "/components/circle_progress/circle_progress"
+  }
+}

@@ -1,0 +1,8 @@
+<view class="login-container">
+  <!-- 提示登陆图标 -->
+  <image class="headimage" src='/image/头像.png'></image>
+  <!-- 登录按钮 -->
+  <button type="primary" class="btn-login">一键登录</button>
+  <!-- 登录提示 -->
+  <view class="tips-text">登录后尽享更多优惠</view>
+</view>

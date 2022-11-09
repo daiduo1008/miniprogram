@@ -1,0 +1,82 @@
+/*wxss*/
+.clock{
+  height: 45rpx;
+  width: 45rpx;
+}
+
+.countDown{
+  margin-left: 600rpx;
+  display: flex;
+}
+
+.category{
+  margin-top: 20rpx;
+}
+
+.category_banner{
+  width:750rpx;
+  white-space: nowrap; 
+}
+
+.interval{
+  margin-left: -10rpx;
+  display: inline-block;
+}
+
+.category_banner_item_after{
+  display: inline-block;
+  height: 95rpx;
+  width: 20rpx;
+  border-radius: 50%;
+  font-size: 40rpx;
+  background-color:rgb(204,247,131);
+  border: 1rpx solid rgb(27, 11, 11);
+}
+
+
+.category_banner_item{
+    display: inline-block;
+    height: 95rpx;
+    width: 20rpx;
+    border-radius: 50%;
+    font-size: 40rpx;
+    background-color:white;
+    border: 1rpx solid rgb(27, 11, 11);
+}
+
+.text{
+  margin-left: -25rpx;
+}
+
+
+.quiz{
+  display:flex;
+  flex-direction: row;
+  border-top: 1rpx solid grey;
+}
+
+.quiz_text{
+  font-size: 100rpx;
+  margin-top: 80rpx;
+  margin-left: 150rpx;
+  margin-bottom: 40rpx;
+}
+
+.answer_text{
+  font-size: 100rpx;
+  margin-top: -50rpx;
+  margin-left: 30rpx;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.button{
+  width: 20rpx;
+  margin-top: 30rpx;
+  background-color: white;
+  border: 1rpx solid rgb(27, 11, 11);
+}

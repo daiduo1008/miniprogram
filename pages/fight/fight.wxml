@@ -1,0 +1,67 @@
+<view class="layout_horizontal">
+  <view style="width:30%;" class='left'>
+    <!-- 头像图片 -->
+    <image class="headimage_left" src='/image/怠惰的头像.png'></image>
+    <!-- 得分 -->
+    <view class='username_left'>4</view>
+  </view>
+
+  <view style="flex:1;width:100px;" class='right'>
+    <!--得分 -->
+    <view class='username_right'>6</view>
+    <!-- 头像图片 -->
+    <image class="headimage_right" src='/image/怠惰的头像.png'></image>
+  </view>
+</view>
+
+
+<view class='ques_back' style="height: 320rpx;">
+  <image src='/image/背景.png' style=" width: 100%; z-index: -999;"></image>
+  <view class='ques'>1+1=</view>
+</view>
+
+<view class='countDown'>
+  <image src="/image/闹钟.png" class="clock"></image> 
+  <text style='color:red'>{{countDownNum}}</text>s
+</view>
+
+<progress percent="20" color='blue'></progress>
+
+<view>
+ 
+
+  <button style='width: 100%;' class='button'>
+    <text class='letter'>A</text>
+    <text class='option'>选项A</text>
+  </button>
+  <button style='width: 100%;' class='button_chosen'>
+    <text class='letter'>B</text>
+    <text class='option'>选项B</text>
+  </button>
+
+  <popup style="z-index: 999;"
+    hide="{{!hidePopup}}" 
+      id='popup'
+      title='请先做出选择'
+      btn_ok='确定'
+      bind:success="_success"
+      >
+  </popup>
+
+  <button style='width: 100%;' class='button'>
+    <text class='letter'>C</text>
+    <text class='option'>选项C</text>
+  </button>
+  <button style='width: 100%;' class='button'>
+    <text class='letter'>D</text>
+    <text class='option'>选项D</text>
+  </button>
+
+  <button style='width: 100%;' class='submit' bindtap="onshowPopup">提交</button>
+  
+</view>
+
+
+
+
+

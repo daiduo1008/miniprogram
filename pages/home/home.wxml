@@ -1,0 +1,12 @@
+<image class="logo" src="/image/快乐做题.png"></image>
+
+<cover-image class='setlogo' src='/image/设置.png'></cover-image>
+<button class="set">
+  <text class="settext">设置</text>
+</button>
+
+
+<cover-image class='startlogo' src='/image/灯泡.png'></cover-image>
+<button class="start">
+  <text class="starttext">开始</text>
+</button>

@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "mykeyboard": "/components/mykeyboard/mykeyboard"
+  }
+}

@@ -1,0 +1,52 @@
+<view class='countDown'>
+  <image src="/image/闹钟.png" class="clock"></image> 
+  <text style='color:red'>{{countDownNum}}</text>s
+</view>
+
+
+<view class="category">
+  <scroll-view class="category_banner" scroll-x enable-flex>
+
+<!-- 点击按钮后-->
+   <view class="interval">
+    <button class="category_banner_item_after" style="width: 10%;"> 
+      <text class="text">00</text>
+    </button>
+   </view>
+
+<!-- 点击按钮前 -->
+   <view class="interval" wx:for="{{lists}}"
+      wx:key="tid">
+    <button class="category_banner_item" style="width: 10%;">
+      <text class="text">{{item.tid}}</text>
+    </button>
+   </view>
+
+
+  </scroll-view>
+</view>
+
+
+<view class="quiz">
+  <view class="quiz_text">
+    <text >1+1=</text>
+  </view>
+
+  <view class="answer_text">
+    <text>
+      {{answer}}
+    </text>
+  </view>
+</view>
+
+<view class="buttons">
+    <button class="button" style="width: 40%"> {{before}}</button>
+    <button class="button" style="width: 40%">{{after}}</button>
+</view>
+
+
+
+
+
+
+	<mykeyboard is-show="{{showkeyborad}}" bindcancle="boardcancle" bindsubmit="boardsubmit" bindinputchange="boardchange" />

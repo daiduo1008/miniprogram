@@ -1,0 +1,56 @@
+.logo{
+  margin-left: 75rpx;
+  margin-top: 10rpx;
+  width: 620rpx;
+  height: 620rpx;
+}
+
+.set{
+  margin-top: -50rpx;
+  width: 300rpx !important;
+  height: 90rpx !important;
+  text-align: center;
+  background-color:rgb(202, 250, 121);
+  z-index: -1;
+}
+
+
+
+.setlogo{
+  margin-top: -50rpx;
+  margin-left: 180rpx;
+  width: 100rpx;
+  height:100rpx;
+}
+
+.settext{
+  margin-left: 58rpx;
+  font-size: 40rpx;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.start{
+  margin-top: -160rpx;
+  width: 300rpx !important;
+  height: 90rpx !important;
+  text-align: center;
+  background-color:rgb(202, 250, 121);
+  z-index: -1;
+}
+
+.startlogo{
+  margin-top: -40rpx;
+  margin-left: 80rpx;
+  width: 300rpx;
+  height:300rpx;
+}
+
+.starttext{
+  margin-left: 58rpx;
+  font-size: 40rpx;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}

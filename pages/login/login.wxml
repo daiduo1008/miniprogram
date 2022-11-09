@@ -1,0 +1,21 @@
+<view class='user-container'>
+  <!-- 头像图片 -->
+  <image class="headimage" src='/image/怠惰的头像.png'></image>
+  <!-- 用户名 -->
+  <text class='username'>昵称</text>
+</view>
+
+<view class='correct'>
+  <text class='correct-text'>正确率</text>
+  <text class="correct-digit">98%</text>
+</view>
+
+<view class='integral'>
+  <text class='integral-text'>积分</text>
+  <text class="integral-digit">100</text>
+</view>
+
+<view class='mist-coll'>
+  <text class='mist-coll-text'>错题集</text>
+  <text class="mist-coll-digit">></text>
+</view>

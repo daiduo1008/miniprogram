@@ -1,0 +1,98 @@
+.integral{
+  margin-top: 40rpx;
+  margin-left: 520rpx;
+}
+
+
+
+.details{
+  margin-top: 80rpx;
+  width: 144px;
+  height: 60px;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(16, 16, 16, 1);
+  font-size: 28px;
+  border: 1px solid rgba(187, 187, 187, 1);
+}
+
+.back{
+  margin-top: 50rpx;
+  width: 144px;
+  height: 60px;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(16, 16, 16, 1);
+  font-size: 28px;
+  border: 1px solid rgba(187, 187, 187, 1);
+}
+
+
+.layout_horizontal{
+  height: 140rpx;
+  display: flex;
+  /*row 横向  column 列表  */
+  flex-direction: row;
+}
+
+.left{
+  position: relative;
+  background: linear-gradient(89.37deg, rgba(204,247,131,1) 0.62%,rgba(204,247,131,0.28) 99.75%);
+  display: flex;
+  flex-direction: row;
+}
+
+.right{
+  position: relative;
+  background: linear-gradient(269.94deg, rgba(189,49,36,0.75) 0.75%,rgba(189,49,49,0.58) 102.55%);
+  display: flex;
+  flex-direction: row;
+}
+
+.headimage_left{
+  position: absolute;
+  width: 100rpx;
+  height: 100rpx;
+  top: 20rpx;
+  left: 20rpx;
+  border-radius: 100px;
+}
+.username_left{
+  position: absolute;
+  color: rgba(16, 16, 16, 1);
+  top: 40rpx;
+  left:150rpx ;
+  font-size: 50rpx;
+
+}
+
+.headimage_right{
+  position: absolute;
+  width: 100rpx;
+  height: 100rpx;
+  top: 20rpx;
+  right: 20rpx;
+  border-radius: 100px;
+}
+.username_right{
+  position: absolute;
+  color: rgba(16, 16, 16, 1);
+  top: 40rpx;
+  right:150rpx ;
+  font-size: 50rpx;
+
+}
+
+.ima_win{
+  margin-top: 40rpx;
+  margin-left: 220rpx;
+  width: 320rpx;
+  height: 440rpx;
+}
+
+.ima_lose{
+  margin-top: 40rpx;
+  margin-left: 100rpx;
+  width: 620rpx;
+  height: 440rpx;
+}

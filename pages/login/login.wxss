@@ -1,0 +1,114 @@
+.user-container{
+  /* height: 350rpx;
+  display: flex;
+  flex-direction:line;
+  align-items: center;
+  background: linear-gradient(#6FB621,#CCF783);
+  position: relative;
+  overflow: hidden;
+  border-bottom-left-radius: 70rpx;
+  border-bottom-right-radius: 70rpx */
+  display: flex;
+  flex-direction:line;
+  width: 750rpx;
+  height: 370rpx;
+  line-height: 40rpx;
+  border-radius: 0px 0px 30px 30px;
+  background: linear-gradient(180deg, rgba(111,182,33,0.59) 0%,rgba(204,247,131,0.25) 100%);
+  color: rgba(16, 16, 16, 1);
+  text-align: center;
+  font-family: Arial;
+  border: 1px solid rgba(187, 187, 187, 1);
+}
+
+.headimage{
+  width: 200rpx;
+  height: 200rpx;
+  margin-top: 78rpx;
+  margin-left: 150rpx;
+  border-radius: 100px;
+}
+.username{
+width: 56px;
+height: 40px;
+color: rgba(16, 16, 16, 1);
+margin-top: 160rpx;
+margin-left:100rpx ;
+font-size: 56rpx;
+
+}
+
+.correct{
+  display: flex;
+  flex-direction:line;
+  margin-top: 70rpx;
+  border: 3rpx solid #f8f8f8;
+  width: 750rpx;
+  height: 120rpx;
+  background-color: #fff;
+}
+
+.correct-text{
+  margin-left: 100rpx;
+  font-size: 46rpx;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.correct-digit{
+  margin-left: 320rpx;
+  font-size: 40rpx;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.integral{
+  display: flex;
+  flex-direction:line;
+  border: 3rpx solid #f8f8f8;
+  width: 750rpx;
+  height: 120rpx;
+  background-color: #fff;
+}
+
+.integral-text{
+  margin-left: 100rpx;
+  font-size: 46rpx;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.integral-digit{
+  margin-left: 365rpx;
+  font-size: 40rpx;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.mist-coll{
+  display: flex;
+  flex-direction:line;
+  border: 3rpx solid #f8f8f8;
+  width: 750rpx;
+  height: 120rpx;
+  background-color: #fff;
+}
+
+.mist-coll-text{
+  margin-left: 100rpx;
+  font-size: 46rpx;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.mist-coll-digit{
+  margin-left: 350rpx;
+  font-size: 40rpx;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+

@@ -1,0 +1,20 @@
+<view>
+  <image class="exit" src="/image/退出.png"></image>
+</view>
+
+<view class="container">
+  <text class="set">设置</text>
+</view>
+
+<view class="check">
+  <checkbox-group bindchange="HandelItemChange">
+    <checkbox value="{{item.value}}" wx:for="{{list}}" wx:key="id">
+      {{item.name}}
+    </checkbox>
+  </checkbox-group>
+</view>
+
+<view class="select">
+  <Select prop-array='{{selectArray}}' bind:myget='getDate'></Select>
+</view>
+

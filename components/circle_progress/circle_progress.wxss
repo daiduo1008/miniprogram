@@ -1,0 +1,19 @@
+.progress-canvas {
+  width: 600rpx;
+  height: 600rpx;
+}
+
+.accuracy{
+  margin-left: 200rpx;
+  margin-top: -400rpx;
+  width: 108px;
+  height: 51px;
+  color: rgba(16, 16, 16, 1);
+  font-size: 36px;
+}
+
+.accnum{
+  margin-left: 260rpx;
+  color: rgba(16, 16, 16, 1);
+  font-size: 36px;
+}

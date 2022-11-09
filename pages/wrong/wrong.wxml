@@ -1,0 +1,28 @@
+<view class='top'>
+  <view class='percent'>错题库</view>
+  <image src="/image/首页.png" class='home'></image>
+</view>
+
+<scroll-view scroll-y="true" style="height: 950rpx;" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+  <view class="false">
+    <text class="text">114+51=4</text>
+    <image src="/image/预览关闭.png" class='preview'></image>
+    <image src="/image/关闭.png" class='close'></image>
+  </view>
+
+  <view class="false_correct">
+    <text class="text">13+1=2</text>
+    <image src="/image/预览打开.png" class='preview'></image>
+    <image src="/image/关闭.png" class='close'></image>
+  </view>
+
+
+  
+</scroll-view>
+
+
+<view class="buttons">
+    <button class="button" style="width: 40%">{{before}}   
+    </button>
+    <button class="button" style="width: 40%">{{after}}</button>
+</view>

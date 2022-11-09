@@ -1,0 +1,3 @@
+<canvas type="2d" id="ring" class="progress-canvas"></canvas>
+<view class="accuracy">正确率</view>
+<view class="accnum">{{percentage}}</view>

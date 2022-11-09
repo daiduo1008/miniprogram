@@ -1,0 +1,6 @@
+<view class="wx-popup" hidden="{{hide}}">
+  <view class='popup-container'>
+    <view class="wx-popup-title" >{{title}}</view>
+    <view class="btn-ok" bindtap='_success' style="width: 292rpx; height: 100rpx; display: flex; box-sizing: border-box">{{btn_ok}}</view>
+  </view>
+</view>

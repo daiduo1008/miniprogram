@@ -1,0 +1,88 @@
+.top{
+  display: flex;
+  flex-direction: row;
+  height: 100rpx;
+  background: linear-gradient(180deg, rgba(242,242,242,1) 0%,rgba(248,248,248,0) 100%);
+  color: rgba(16, 16, 16, 1);
+  font-size: 28px;
+  text-align: center;
+  font-family: Arial;
+  border: 1px solid rgba(187, 187, 187, 1);
+}
+
+.percent{
+  margin-top: 20rpx;
+  margin-left:300rpx
+}
+
+.home{
+  margin-top: 20rpx;
+  margin-left:200rpx;
+  height: 60rpx;
+  width: 60rpx;
+}
+.false_correct{
+  position: relative;
+  height: 90rpx;
+  background: linear-gradient(134.36deg, rgba(204,247,131,1) 1.78%,rgba(208,255,127,0.41) 100.29%);
+  color: rgba(16, 16, 16, 1);
+  font-size: 28rpx;
+  text-align: center;
+  font-family: Arial;
+}
+.false{
+  position: relative;
+  height: 100rpx;
+  background: linear-gradient(134.36deg, rgba(189,49,36,0.75) 1.78%,rgba(222,134,143,0.41) 100.29%);
+  color: rgba(16, 16, 16, 1);
+  font-size: 28px;
+  text-align: center;
+  font-family: Arial;
+}
+
+.right{
+  position: relative;
+  height: 90rpx;
+  background: linear-gradient(134.36deg, rgba(204,247,131,1) 1.78%,rgba(208,255,127,0.41) 100.29%);
+  color: rgba(16, 16, 16, 1);
+  font-size: 28rpx;
+  text-align: center;
+  font-family: Arial;
+}
+
+.text{
+  position: absolute;
+  left: 100rpx;
+  height: 100rpx;
+  color: rgba(16, 16, 16, 1);
+  font-size: 60rpx;
+  text-align: left;
+  font-family: PingFangSC-regular;
+}
+
+.image{
+  position:absolute;
+  left: 10rpx;
+  top: 10rpx;
+  height: 60rpx;
+  width: 60rpx;
+}
+
+
+.false_image{
+  position:absolute;
+  left: 60rpx;
+  top: 10rpx;
+  height: 60rpx;
+  width: 60rpx;
+  margin-left: -50rpx;
+}
+
+.preview{
+  position:absolute;
+  left: 600rpx;
+  top: 10rpx;
+  height: 60rpx;
+  width: 60rpx;
+}
+
